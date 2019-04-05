@@ -1,0 +1,15 @@
+.DS_Store
+.idea
+.vscode
+*.zip
+node_modules/
+coverage/
+eslint/
+junit.xml
+package-lock.json
+.history
+build/
+dist/
+release/
+tree.md
+examples/

@@ -1,0 +1,23 @@
+{
+  "name": "oneql-boilerplate-simple",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node  dist/src/index.js NODE_ENV=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oneqljs/oneql-boilerplate-simple.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oneqljs/oneql-boilerplate-simple/issues"
+  },
+  "homepage": "https://github.com/oneqljs/oneql-boilerplate-simple#readme",
+  "dependencies": {
+    "oneql": "0.0.5"
+  }
+}
