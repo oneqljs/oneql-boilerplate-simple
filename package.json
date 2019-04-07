@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/oneqljs/oneql-boilerplate-simple#readme",
   "dependencies": {
-    "oneql": "0.0.5"
+    "oneql": "^0.0.6"
   }
 }
