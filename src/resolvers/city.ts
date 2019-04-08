@@ -8,18 +8,18 @@ interface CityRequest {
 
 const cityResolvers = {
   Query: {
-    city: async (root, arg, context) => {
+    city: async (_root, arg, _context) => {
       const { key, ext }: CityRequest = arg.request || {}
-      console.log('key ', key, ' ext ', ext)
+      
+      console.log('context city ---', _context.ctx.suffix)
 
-      console.log('root: ', root, ' arg: ', arg, ' context: ', context)
       let response
       try {
         var param = {
           key,
           ext
         }
-        console.log('param - ', param)
+        console.log('city param - ', param)
         // response = await SOA('13555', 'airportFuzzySearch', param)
 
         response = cityMockData
