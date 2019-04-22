@@ -1,10 +1,10 @@
 {
   "name": "oneql-boilerplate-simple",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "tsc && node dist/src/index.js NODE_ENV=production",
+    "start": "tsc && oneql start NODE_ENV=production",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
     "debug": "node --inspect -r ts-node/register src/index.ts",
